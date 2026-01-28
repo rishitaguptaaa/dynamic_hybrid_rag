@@ -1,0 +1,9 @@
+langchain
+langchain-experimental
+langchain-core
+tk
+pdfplumber
+matplotlib
+networkx
+pillow
+openai
