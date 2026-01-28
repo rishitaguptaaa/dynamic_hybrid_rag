@@ -1,5 +1,5 @@
 # Dynamic Hybrid RAG Document Q&A System
-A hybrid Retrieval-Augmented Generation system that dynamically routes queries between vector search and knowledge-graph reasoning.
+A hybrid Retrieval-Augmented Generation system that dynamically routes queries between vector search and knowledge-graph reasoning. Designed to run locally with minimal dependencies, making it safe to use easy to experiment, extend, or integrate into larger systems.
 
 A project that combines **vector search** and **knowledge-graph reasoning** to answer questions from large PDFs.  
 Supports four query modes: `factual`, `relationship`, `complex`, and `summary`.
