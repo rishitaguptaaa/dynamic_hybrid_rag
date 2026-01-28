@@ -19,7 +19,7 @@ This repository implements a **hybrid Retrieval-Augmented Generation (RAG)** sys
 
 ## Key Features
 
-- Intelligent query routing: `factual`, `relationship`, `complex`, `summary`  
+- Dynamic query routing: `factual`, `relationship`, `complex`, `summary`  
 - Dual retrieval architecture: Vector RAG (Chroma + MMR) + Graph RAG (NetworkX)  
 - Hybrid synthesis for multi-step reasoning  
 - PDF ingestion with configurable chunking and overlap  
@@ -51,15 +51,6 @@ Query Classifier
  ↓
 Routing / Hybrid Synthesis
 ```
-
----
-
-## Example Queries
-
-- **Factual:** “What is the definition of X?”
-- **Relationship:** “How does A relate to B?”
-- **Summary:** “Summarize chapter 4”
-- **Complex:** “Compare X and Y and explain their impact”
 
 ---
 
@@ -108,7 +99,7 @@ pip install -r requirements.txt
 2. Run the application:
 
 ```bash
-python Hybrid_PDF_RAG.py
+python Dynamic_Hybrid_RAG.py
 ```
 
 3. In the GUI:
@@ -118,3 +109,10 @@ python Hybrid_PDF_RAG.py
 * Ask questions using `auto`, `factual`, `relationship`, `summary`, or `complex`.
 
 ---
+
+## Example Queries
+
+- **Factual:** “What is the definition of X?”
+- **Relationship:** “How does A relate to B?”
+- **Summary:** “Summarize chapter 4”
+- **Complex:** “Compare X and Y and explain their impact”
